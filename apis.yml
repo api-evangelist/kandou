@@ -1,21 +1,49 @@
 aid: kandou
 name: Kandou
-description: 'Kandou is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kandou (Kandou AI) is a fabless semiconductor company founded in 2011 by
+  Amin Shokrollahi and headquartered in Lausanne, Switzerland. It designs high-speed,
+  energy-efficient chip-to-chip interconnect technology built on its proprietary Copper
+  MIMO / Chord Signaling architecture, which turns noise in copper channels into usable
+  bandwidth for massively scalable AI systems. Products include the Glasswing chiplet
+  interconnect IP, the Regli PCIe retimer, the Matterhorn USB4 retimer, the Zetti PCIe
+  switch, and AI Fabric memory/networking platforms. Chord signaling has been adopted
+  into JEDEC and OIF industry specifications. Backed by Bessemer Venture Partners across
+  multiple rounds, Kandou raised a $225M round in March 2026 led by Maverick Silicon
+  with strategic participation from SoftBank, Synopsys, Cadence, and Alchip. This is a
+  hardware/semiconductor IP company with no public REST/GraphQL API, SDK, or developer
+  platform surface.'
 url: https://raw.githubusercontent.com/api-evangelist/kandou/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69d76d29d92505bbfe2e7d5f/6a50b381cf1faa49395f2ed2_Open%20graph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Semiconductors
+- Hardware
+- Chiplets
+- Interconnect
+- SerDes
+- AI Infrastructure
+- Deep Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/kandou-domain-security.yml
 - type: Website
-  url: https://www.kandou.com/
+  url: https://www.kandou.ai/
+- type: About
+  url: https://www.kandou.ai/about
+- type: Blog
+  url: https://www.kandou.ai/news-events
+- type: Support
+  url: https://www.kandou.ai/contact
+- type: Careers
+  url: https://www.kandou.ai/careers
+- type: PrivacyPolicy
+  url: https://www.kandou.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.kandou.ai/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kandou-ai/
+- type: Twitter
+  url: https://x.com/kandoubus
+- type: YouTube
+  url: https://www.youtube.com/@KandouAI
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
